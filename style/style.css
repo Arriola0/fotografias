@@ -39,7 +39,7 @@ html{
 }
 
 .imagen {
-    width: 33%;
+    width: 48%;
     height: auto;
 }
 
@@ -55,7 +55,11 @@ html{
     cursor: pointer;
 }
 
-
+@media(min-width: 768px){
+    .imagen{
+        width: 30%;
+    }
+}
 
 
 
