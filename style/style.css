@@ -30,36 +30,71 @@ html{
 
 
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 6px;
-    margin-bottom: 50px;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
 }
 
 .imagen {
-    width: 48%;
-    height: auto;
+    max-width: 100%;
+    max-height: 200px;
+    margin: 2px;
+    box-shadow: 5px 5px 5px;
 }
 
 .img{
     width: 100%;
-    height: auto;
-    box-shadow: 5px 5px 5px;
-    transition: transform 0.3s ease;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1s ease;
 }
 
-.img:hover{
-    transform: scale(1.1);
+.imagen:hover{
+    transform: scale(1);
     cursor: pointer;
 }
 
-@media(min-width: 768px){
-    .imagen{
-        width: 30%;
-    }
+
+
+
+
+
+/*Aqui comienza las clases que se agregan al hacer click*/
+.galleryCambio{
+    height: 0px;
+    overflow-y: hidden;
+}
+
+.imagenCambio{
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    max-height: none;
+    text-align: center;
+    padding: 10px;
+    box-shadow: none;
+}
+.imgCambio{
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 50px;
 }
 
 
+.cerrar{
+    display: none;
+    width: 25px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px;
+    border: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
 
+.cerrar:hover{
+    font-size: 1.8rem;
+}
