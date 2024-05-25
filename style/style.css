@@ -98,3 +98,10 @@ html{
 .cerrar:hover{
     font-size: 1.8rem;
 }
+
+
+
+.Enlace{
+    color: #000;
+    text-decoration: none;
+}
