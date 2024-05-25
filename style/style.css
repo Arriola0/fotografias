@@ -105,3 +105,19 @@ html{
     color: #000;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+@media(min-width: 768px){
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+     }
+     
+     .imagen {
+         max-height: 300px;
+     }
+}
