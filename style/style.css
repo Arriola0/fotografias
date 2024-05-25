@@ -31,12 +31,12 @@ html{
 
 .gallery {
    display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 }
 
 .imagen {
     max-width: 100%;
-    max-height: 200px;
+    max-height: 150px;
     margin: 2px;
     box-shadow: 5px 5px 5px;
 }

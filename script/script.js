@@ -94,7 +94,7 @@ imagen2.addEventListener("click", ()=>{
     img2.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img2";
+    Enlace.href = "#img1";
 })
 cerrar.addEventListener("click", ()=>{
     imagen2.classList.remove("imagenCambio");
@@ -110,7 +110,7 @@ imagen3.addEventListener("click", ()=>{
     img3.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img3";
+    Enlace.href = "#img2";
 })
 cerrar.addEventListener("click", ()=>{
     imagen3.classList.remove("imagenCambio");
@@ -127,7 +127,7 @@ imagen4.addEventListener("click", ()=>{
     img4.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img4";
+    Enlace.href = "#img2";
 })
 cerrar.addEventListener("click", ()=>{
     imagen4.classList.remove("imagenCambio");
@@ -143,7 +143,7 @@ imagen5.addEventListener("click", ()=>{
     img5.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img5";
+    Enlace.href = "#img3";
 })
 cerrar.addEventListener("click", ()=>{
     imagen5.classList.remove("imagenCambio");
@@ -158,7 +158,7 @@ imagen6.addEventListener("click", ()=>{
     img6.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img6";
+    Enlace.href = "#img3";
 })
 cerrar.addEventListener("click", ()=>{
     imagen6.classList.remove("imagenCambio");
@@ -175,7 +175,7 @@ imagen7.addEventListener("click", ()=>{
     img7.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img7";
+    Enlace.href = "#img5";
 })
 cerrar.addEventListener("click", ()=>{
     imagen7.classList.remove("imagenCambio");
@@ -190,7 +190,7 @@ imagen8.addEventListener("click", ()=>{
     img8.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img8";
+    Enlace.href = "#img5";
 })
 cerrar.addEventListener("click", ()=>{
     imagen8.classList.remove("imagenCambio");
@@ -205,7 +205,7 @@ imagen9.addEventListener("click", ()=>{
     img9.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img9";
+    Enlace.href = "#img7";
 })
 cerrar.addEventListener("click", ()=>{
     imagen9.classList.remove("imagenCambio");
@@ -220,7 +220,7 @@ imagen10.addEventListener("click", ()=>{
     img10.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img10";
+    Enlace.href = "#img7";
 })
 cerrar.addEventListener("click", ()=>{
     imagen10.classList.remove("imagenCambio");
@@ -234,7 +234,7 @@ imagen11.addEventListener("click", ()=>{
     img11.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img11";
+    Enlace.href = "#img9";
 })
 cerrar.addEventListener("click", ()=>{
     imagen11.classList.remove("imagenCambio");
@@ -249,7 +249,7 @@ imagen12.addEventListener("click", ()=>{
     img12.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img12";
+    Enlace.href = "#img9";
 })
 cerrar.addEventListener("click", ()=>{
     imagen12.classList.remove("imagenCambio");
@@ -263,7 +263,7 @@ imagen13.addEventListener("click", ()=>{
     img13.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img13";
+    Enlace.href = "#img11";
 })
 cerrar.addEventListener("click", ()=>{
     imagen13.classList.remove("imagenCambio");
@@ -279,7 +279,7 @@ imagen14.addEventListener("click", ()=>{
     img14.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img14";
+    Enlace.href = "#img11";
 })
 cerrar.addEventListener("click", ()=>{
     imagen14.classList.remove("imagenCambio");
@@ -294,7 +294,7 @@ imagen15.addEventListener("click", ()=>{
     img15.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img15";
+    Enlace.href = "#img13";
 })
 cerrar.addEventListener("click", ()=>{
     imagen15.classList.remove("imagenCambio");
@@ -309,7 +309,7 @@ imagen16.addEventListener("click", ()=>{
     img16.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img16";
+    Enlace.href = "#img13";
 })
 cerrar.addEventListener("click", ()=>{
     imagen16.classList.remove("imagenCambio");
@@ -324,7 +324,7 @@ imagen17.addEventListener("click", ()=>{
     img17.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img17";
+    Enlace.href = "#img15";
 })
 cerrar.addEventListener("click", ()=>{
     imagen17.classList.remove("imagenCambio");
@@ -339,7 +339,7 @@ imagen18.addEventListener("click", ()=>{
     img18.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img18";
+    Enlace.href = "#img15";
 })
 cerrar.addEventListener("click", ()=>{
     imagen18.classList.remove("imagenCambio");
@@ -355,7 +355,7 @@ imagen19.addEventListener("click", ()=>{
     img19.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img19";
+    Enlace.href = "#img17";
 })
 cerrar.addEventListener("click", ()=>{
     imagen19.classList.remove("imagenCambio");
@@ -369,7 +369,7 @@ imagen20.addEventListener("click", ()=>{
     img20.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img20";
+    Enlace.href = "#img17";
 })
 cerrar.addEventListener("click", ()=>{
     imagen20.classList.remove("imagenCambio");
@@ -384,7 +384,7 @@ imagen21.addEventListener("click", ()=>{
     img21.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img21";
+    Enlace.href = "#img19";
 })
 cerrar.addEventListener("click", ()=>{
     imagen21.classList.remove("imagenCambio");
@@ -398,7 +398,7 @@ imagen22.addEventListener("click", ()=>{
     img22.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img22";
+    Enlace.href = "#img19";
 })
 cerrar.addEventListener("click", ()=>{
     imagen22.classList.remove("imagenCambio");
@@ -413,7 +413,7 @@ imagen23.addEventListener("click", ()=>{
     img23.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img23";
+    Enlace.href = "#img21";
 })
 cerrar.addEventListener("click", ()=>{
     imagen23.classList.remove("imagenCambio");
@@ -429,7 +429,7 @@ imagen24.addEventListener("click", ()=>{
     img24.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img24";
+    Enlace.href = "#img21";
 })
 cerrar.addEventListener("click", ()=>{
     imagen24.classList.remove("imagenCambio");
@@ -444,7 +444,7 @@ imagen25.addEventListener("click", ()=>{
     img25.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img25";
+    Enlace.href = "#img23";
 })
 cerrar.addEventListener("click", ()=>{
     imagen25.classList.remove("imagenCambio");
@@ -459,7 +459,7 @@ imagen26.addEventListener("click", ()=>{
     img26.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img26";
+    Enlace.href = "#img23";
 })
 cerrar.addEventListener("click", ()=>{
     imagen26.classList.remove("imagenCambio");
@@ -474,7 +474,7 @@ imagen27.addEventListener("click", ()=>{
     img27.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img27";
+    Enlace.href = "#img25";
 })
 cerrar.addEventListener("click", ()=>{
     imagen27.classList.remove("imagenCambio");
@@ -489,7 +489,7 @@ imagen28.addEventListener("click", ()=>{
     img28.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img28";
+    Enlace.href = "#img25";
 })
 cerrar.addEventListener("click", ()=>{
     imagen28.classList.remove("imagenCambio");
@@ -504,7 +504,7 @@ imagen29.addEventListener("click", ()=>{
     img29.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img29";
+    Enlace.href = "#img27";
 })
 cerrar.addEventListener("click", ()=>{
     imagen29.classList.remove("imagenCambio");
@@ -519,7 +519,7 @@ imagen30.addEventListener("click", ()=>{
     img30.classList.add("imgCambio");
     gallery.classList.add("galleryCambio");
     cerrar.style.display = "block";
-    Enlace.href = "#img30";
+    Enlace.href = "#img27";
 })
 cerrar.addEventListener("click", ()=>{
     imagen30.classList.remove("imagenCambio");
