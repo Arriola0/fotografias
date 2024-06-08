@@ -32,6 +32,7 @@ html{
 .gallery {
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+   margin-bottom: 10px;
 }
 
 .imagen {
@@ -54,56 +55,32 @@ html{
 }
 
 
-
-
-
-
-/*Aqui comienza las clases que se agregan al hacer click*/
-.galleryCambio{
-    height: 0px;
-    overflow-y: hidden;
+.galleryB, .galleryC{
+    display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+   margin-bottom: 10px;
+   display: none;
 }
 
-.imagenCambio{
-    position: absolute;
-    background: #fff;
-    width: 100%;
-    max-height: none;
+.seguirViendo, .seguirViendoB{
+    padding: 8px;
     text-align: center;
-    padding: 10px;
-    box-shadow: none;
-}
-.imgCambio{
-    max-width: 400px;
-    height: auto;
-    margin-bottom: 50px;
-}
-
-
-.cerrar{
-    display: none;
-    width: 25px;
-    padding: 5px;
-    box-shadow: 5px 5px 5px;
-    border: 1px solid #000;
+    font-size: 1.5rem;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    max-width: max-content;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
-    font-size: 1.5rem;
-    text-align: center;
-    border-radius: 2px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px;
     cursor: pointer;
 }
-
-.cerrar:hover{
-    font-size: 1.8rem;
+.seguirViendoB{
+    display: none;
 }
 
-
-
-.Enlace{
-    color: #000;
-    text-decoration: none;
+.seguirViendo:hover{
+    font-size: 1.8rem;
 }
 
 
@@ -119,5 +96,8 @@ html{
      
      .imagen {
          max-height: 300px;
+     }
+     .galleryB{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
      }
 }

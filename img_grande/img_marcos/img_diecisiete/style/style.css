@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+.padreTitulos{
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 20px;
+    z-index: 10;
+}
+.titulo{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.subTitulo{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0005;
+}
+
+
+.padreImg{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.img{
+    width: 100%;
+    max-width: 500px;
+
+}
+.description{
+    font-size: 1.3rem;
+}
