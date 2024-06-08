@@ -90,14 +90,11 @@ html{
 
 
 @media(min-width: 768px){
-    .gallery {
+    .gallery, .galleryB, .galleryC {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
      }
      
      .imagen {
          max-height: 300px;
-     }
-     .galleryB{
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
      }
 }
