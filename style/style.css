@@ -37,7 +37,7 @@ html{
 
 .imagen {
     max-width: 100%;
-    max-height: 150px;
+    height: 150px;
     margin: 2px;
     box-shadow: 5px 5px 5px;
 }
@@ -96,5 +96,6 @@ html{
      
      .imagen {
          max-height: 300px;
+         height: 200px;
      }
 }
