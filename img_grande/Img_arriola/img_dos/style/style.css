@@ -6,12 +6,13 @@
 
 html{
     font-size: 62.5%;
+    background: #FEF8F8;
 }
 .padreTitulos{
-    background: #fff;
     margin-bottom: 10px;
     padding: 20px;
     z-index: 10;
+    background: #FEF8F8;
 }
 .titulo{
     text-align: center;

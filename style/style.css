@@ -6,11 +6,12 @@
 
 html{
     font-size: 62.5%;
+    background: #FEF8F8;
 }
 .padreTitulos{
     position: sticky;
     top: 0;
-    background: #fff;
+    background: #FEF8F8;
     margin-bottom: 60px;
     padding: 20px;
     z-index: 10;
@@ -20,11 +21,12 @@ html{
     font-size: 3rem;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #000;
 }
 .subTitulo{
     text-align: center;
     font-size: 2.5rem;
-    color: #0005;
+    color: #0008;
 }
 
 
@@ -33,6 +35,7 @@ html{
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
    margin-bottom: 10px;
+   background: #FEF8F8;
 }
 
 .imagen {
@@ -40,6 +43,7 @@ html{
     height: 150px;
     margin: 2px;
     box-shadow: 5px 5px 5px;
+    margin: 6px;
 }
 
 .img{
